@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="397.0" prefWidth="284.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="display" alignment="BASELINE_RIGHT" editable="false" layoutX="14.0" layoutY="20.0" prefHeight="54.0" prefWidth="257.0">
+         <font><Font size="15.0" /></font>
+      </TextField>
+      <Button fx:id="one" layoutX="15.0" layoutY="90.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="46.0" text="1" />
+      <Button fx:id="two" layoutX="75.0" layoutY="90.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="46.0" text="2" />
+      <Button fx:id="three" layoutX="135.0" layoutY="90.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="46.0" text="3" />
+      <Button fx:id="plus" layoutX="199.0" layoutY="90.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="71.0" text="+" />
+      <Button fx:id="four" layoutX="15.0" layoutY="150.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="46.0" text="4" />
+      <Button fx:id="five" layoutX="75.0" layoutY="150.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="46.0" text="5" />
+      <Button fx:id="six" layoutX="135.0" layoutY="150.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="46.0" text="6" />
+      <Button fx:id="minus" layoutX="199.0" layoutY="150.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="71.0" text="_" />
+      <Button fx:id="seven" layoutX="15.0" layoutY="210.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="46.0" text="7" />
+      <Button fx:id="eight" layoutX="75.0" layoutY="210.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="46.0" text="8" />
+      <Button fx:id="nine" layoutX="135.0" layoutY="210.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="46.0" text="9" />
+      <Button fx:id="multiplication" layoutX="199.0" layoutY="210.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="71.0" text="x" />
+      <Button fx:id="decimal" layoutX="15.0" layoutY="270.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="46.0" text="." />
+      <Button fx:id="zero" layoutX="75.0" layoutY="270.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="46.0" text="0" />
+      <Button fx:id="negative" layoutX="135.0" layoutY="270.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="46.0" text="-" />
+      <Button fx:id="division" layoutX="199.0" layoutY="270.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="71.0" text="/" />
+      <Button fx:id="clear" layoutX="15.0" layoutY="330.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="165.0" text="CLEAR" />
+      <Button fx:id="equals" layoutX="199.0" layoutY="330.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="71.0" text="=" />
+   </children>
+</Pane>
