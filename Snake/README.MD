@@ -1,1 +1,2 @@
-Here are series of the classic snake game in various platforms!
+Here are series of the classic snake game in:
+1. JS & HTML5
