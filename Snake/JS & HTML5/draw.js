@@ -8,18 +8,18 @@ var snake;
 
 (function setup () {
 	snake = new Snake();
-	snake.draw();
+	fruit = new Fruit();
+	fruit.pickLocation();
 
 	window.setInterval(() =>{
 		ctx.clearRect(0, 0, canvas.width, canvas.height);
 		snake.update();
 		snake.draw();
+		fruit.draw();
 	},250);
 }());
 
 window.addEventListener('keydown', ((evt) => {
-	console.log(evt);
 	const direction = evt.key.replace('Arrow','');
 	snake.changeDirection(direction);
-	
-}))
+}));
