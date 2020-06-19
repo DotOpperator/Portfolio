@@ -1,7 +1,7 @@
 function Snake() {
 	this.x = 0;
 	this.y = 0;
-	this.xSpeed = scale * 1;
+	this.xSpeed = scale * 1	;
 	this.ySpeed = 0;
 	this.total = 0;
 	this.tail = [];
@@ -9,7 +9,7 @@ function Snake() {
 	// Draw the snake
 	this.draw = function () {
 		// color of the snake
-		ctx.fillStyle = "#FFFFFF";	
+		ctx.fillStyle = "pink";
 		
 		// Draw the length of the snake based on the length of it's tail
 		for(let i = 0; i < this.tail.length;i++){
@@ -79,7 +79,7 @@ function Snake() {
 		for (var i = 0; i < this.tail.length; i++) {
 			if(this.x == this.tail[i].x && this.y == this.tail[i].y){
 				this.total = 0;
-				this.tail[] = [];
+				this.tail = [];
 			}
 		}
 	}
