@@ -11,14 +11,14 @@ I am a LinkedIn Bot to help you complete some simeple tasks through automation.
   if you want to, just download 
   the chrome driver for your OS.
   
-#FEATURES
+# FEATURES
 1. Post
   a. If you want to post something
 2. Find a profile
   a. If you want to search a profile
   
   
-  #FEEDBACK
-  Please leave any kind feedback if you
-  find mistakes or want to make suggestions!
+# FEEDBACK
+Please leave any kind feedback if you
+find mistakes or want to make suggestions!
   
